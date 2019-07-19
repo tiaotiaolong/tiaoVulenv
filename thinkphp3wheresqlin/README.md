@@ -67,6 +67,8 @@ http://localhost:8888/tp3/index.php?m=Home&c=Index&a=test&id=1%20and%20updatexml
 最后贴一张他的修复方案，大家可以想一下为什么这么修复？
 ![](http://tiaotiaolong.cn-bj.ufileos.com/blog19-14.jpg)
 
+![](http://tiaotiaolong.cn-bj.ufileos.com/wechatzanshangma.jpg)
+
 
 
 
