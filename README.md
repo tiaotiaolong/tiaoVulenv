@@ -3,4 +3,6 @@
 
 - [Thinkphp3.2 SQL注入分析以及代码](https://github.com/tiaotiaolong/tiaoVulenv/tree/master/thinkphp3wheresqlin)
 
+- [Apache Common组件反序列化原理](https://github.com/tiaotiaolong/tiaoVulenv/tree/master/unseri)
+
 
