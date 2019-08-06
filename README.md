@@ -5,4 +5,6 @@
 
 - [Apache Common组件反序列化原理](https://github.com/tiaotiaolong/tiaoVulenv/tree/master/unseri)
 
+- [Fastjson反序列化漏洞分析(1)之poc里那几个不起眼的字段](https://github.com/tiaotiaolong/tiaoVulenv/tree/master/fastjson_unseri)
+
 
