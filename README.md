@@ -7,4 +7,6 @@
 
 - [Fastjson反序列化漏洞分析(1)之poc里那几个不起眼的字段](https://github.com/tiaotiaolong/tiaoVulenv/tree/master/fastjson_unseri)
 
+- [shiro反序列化漏洞复现以及环境](https://github.com/tiaotiaolong/tiaoVulenv/tree/master/shiro_deser)
+
 
